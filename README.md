@@ -123,10 +123,10 @@ Residual plots revealed any patterns in prediction errors, ensuring no systemic 
 
 ## Deployment
 
-To clone this project run
+To clone this project, run
 
 ```bash
-  git clone https://github.com/your-username/Sales-Forecasting-With-Prophet.git
+  git clone https://github.com/ekramul14/Sales-Forecasting-With-Prophet.git
 cd Sales-Forecasting-With-Prophet
 
 ```
