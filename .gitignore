@@ -1,0 +1,5 @@
+# Kaggle data (download separately; too large for the repo)
+data/
+# Python
+__pycache__/
+.ipynb_checkpoints/
