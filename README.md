@@ -1,6 +1,6 @@
 # Time Series Forecasting of Daily Sales for Retail Stores Using Facebook Prophet
 
-Exploratory analysis and Prophet forecasting of daily sales for the 1,115 Rossmann drugstores, with school and state holiday effects, plus an out-of-sample evaluation against simple baselines.
+I analyzed 844,392 open store-days from the Rossmann dataset covering 1,115 stores. The documented forecasting evaluation uses 50 randomly selected stores and a six-week holdout. Prophet with planned promotion and holiday inputs achieved a mean store-level MAPE of 11.33%, compared with 21.20% for the weekday-average baseline. These results describe the evaluated sample, not a completed rollout across all stores.
 
 ## Dataset
 [Rossmann Store Sales (Kaggle)](https://www.kaggle.com/c/rossmann-store-sales/data): `train.csv` (daily sales per store, 2013-01-01 to 2015-07-31) and `store.csv` (store attributes, included in this repo). Download `train.csv` into a `data/` folder to rerun the analysis.
